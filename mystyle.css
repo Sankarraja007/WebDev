@@ -47,7 +47,16 @@ thead, td ,th, tr{
 body{
     color: white;
     background-color: rgb(40, 40, 40);
+} 
+p.para{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    width: 90%;
+    margin-left:5%;
 }
 p{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+ul{
+    margin-left: 7.5%;
 }
