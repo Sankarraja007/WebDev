@@ -3,6 +3,39 @@ h1 {
     text-align: left;
     text-shadow: 2,2,3;
 }
+
+h2{
+    color:aquamarine;
+}
+ul.navig{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top:0%;
+}
+li.nav{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+}
+
+li a:hover:not(.active){
+    background-color: green;
+}
+
+.active{
+    background-color: green;
+}
+
 table{
     width: 80%;
     margin-left: 10%;
@@ -14,4 +47,7 @@ thead, td ,th, tr{
 body{
     color: white;
     background-color: rgb(40, 40, 40);
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
